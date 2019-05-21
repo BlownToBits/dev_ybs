@@ -1,0 +1,530 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+
+    <!-- Required Core Stylesheet (slider) -->
+    <link rel="stylesheet" href="css/glide.core.min.css">
+
+    <!-- Optional Theme Stylesheet (slider) -->
+    <link rel="stylesheet" href="css/glide.theme.min.css">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/global.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&amp;subset=cyrillic" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/fontello.css">
+
+    <title>Shop Online</title>
+  </head>
+  <body>
+    <div class="top_line">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-12">
+            <form action="" class="top_line-search">
+              <input type="text" id="search" placeholder="Что ищем?" name="search">
+              <button type="submit"><i class="icon-search"></i></button>
+            </form>
+            <!-- /.top_line-search -->
+          </div>
+          <div class="col-sm-6 col-12">
+            <ul class="top_line-nav nav horizontal-nav">
+              <li>
+                <a href="#" id="account_btn" class="d-none d-md-block d-lg-block d-xl-block">Вход<span>|</span>Регистрация</a>
+                <a href="#"class="d-block d-md-none d-lg-none d-xl-none">Вход<span>|</span>Регистрация</a>
+                <div class="top_line-modal modal_window" id="modal-account">
+                  <p class="top_line-modal__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  <form action="" class="form">
+                    <input type="text" placeholder="Имя" name="name">
+                    <input type="password" placeholder="Пароль" name="pass">
+                    <button class="btn" type="submit"><i class="icon-lock-open"></i>Войти</button>
+                  </form>
+                  <div class="top_line-modal__social">
+                    <span>Войти через: </span>
+                    <ul class="nav">
+                      <li><a href="#"><i class="icon-twitter-circled"></i></a></li>
+                      <li><a href="#"><i class="icon-facebook-circled"></i></a></li>
+                      <li><a href="#"><i class="icon-tumbler-circled"></i></a></li>
+                    </ul>
+                  </div>
+                  <hr class="hr">
+                  <button class="btn" type="submit">
+                    <i class="icon-user-add-outline"></i>Зарегистрироваться
+                  </button>
+                </div>
+              </li>
+              <li class="top_line-nav__lang">
+                <a href="#"><img src="img/icons/ru.png" alt="ru"></a>
+                <a href="#"><img src="img/icons/ua.png" alt="ua"></a>
+              </li>
+            </ul>
+            <!-- /.top_line-nav -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.top-line -->
+
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md col-12">
+            <ul class="header-nav nav horizontal-nav">
+              <li><a href="#">Про нас</a></li>
+              <li><a href="#">Помощь</a></li>
+              <li><a href="#">Связь</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-4">
+             <div class="header-logo_box">
+                <h1>
+                  <a href="#">UkrShop</a>
+                </h1>
+                <small>Интернет-магазин техники</small>
+              </div>
+          </div>
+          <div class="col-6 col-md">
+            <div class="header-cart_box">
+              <a href="#" id="header_cart_btn">
+                <span class="header-cart_box__price">$483.69</span>
+                <span class="header-cart_box__icon">
+                  <i class="icon-basket"></i>
+                  <small>12</small>
+                </span>
+              </a>
+              <div class="header-cart_window modal_window">
+                <div class="products">
+                  <div class="item">
+                    <img src="img/products/3.png" alt="product">
+                    <a href="#"><h5>Вибратор Турбо х500</h5></a>
+                    <span class="price_for_one">$10</span>
+                    <input class="num" type="number" placeholder="0" value="1">
+                    <span class="price_all">$100</span>
+                    <span class="remove"><span class="icon-cancel-outline"></span></span>
+                  </div>
+                  <div class="item">
+                    <img src="img/products/3.png" alt="product">
+                    <a href="#"><h5>Вибратор Турбо х500</h5></a>
+                    <span class="price_for_one">$10</span>
+                    <input class="num" type="number" placeholder="0" value="1">
+                    <span class="price_all">$100</span>
+                    <span class="remove"><span class="icon-cancel-outline"></span></span>
+                  </div>
+                  <div class="item">
+                    <img src="img/products/3.png" alt="product">
+                    <a href="#"><h5>Вибратор Турбо х500</h5></a>
+                    <span class="price_for_one">$10</span>
+                    <input class="num" type="number" placeholder="0" value="1">
+                    <span class="price_all">$100</span>
+                    <span class="remove"><span class="icon-cancel-outline"></span></span>
+                  </div>
+                </div>
+                <div class="total">
+                  Всего: <span>$1500</span>
+                </div>
+                <div class="btns">
+                  <a href="#" class="btn" id="continue_btn">Продолжить покупки</a>
+                  <a href="#" class="btn" style="font-weight: 700;">Заказать сейчас</a>
+                </div>
+              </div>
+            </div>
+            <!-- /.header_cart-box -->
+          </div>
+        </div>
+        <!-- /.row -->
+      </div>
+    </header>
+    <!-- /.header -->
+
+    <main class="main">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4 col-lg-3 sidebar">
+            <div class="sidebar-nav">
+              <ul class="nav">
+                <li class="sidebar-nav__tab">
+                  <input type="radio" id="tab-0" name="sidebar-nav">
+                  <label for="tab-0"><i class="icon-briefcase"></i>Сумки и обувь</label>
+                  <ul class="sidebar-nav__content nav d-none d-md-block d-lg-block d-xl-block">
+                    <li><a href="#">Сумки</a></li>
+                    <li><a href="#">Nike</a></li>
+                    <li><a href="#">Другие бренды</a></li>
+                    <li><a href="#">С базара</a></li>
+                  </ul>
+                </li>
+                <li class="sidebar-nav__tab">
+                  <input type="radio" id="tab-1" name="sidebar-nav">
+                  <label for="tab-1"><i class="icon-snow"></i>Спорт и отдых</label>
+                  <ul class="sidebar-nav__content nav d-none d-md-block d-lg-block d-xl-block">
+                    <li><a href="#">Подкатегория 1</a></li>
+                    <li><a href="#">Подкатегория 2</a></li>
+                    <li><a href="#">Подкатегория 3</a></li>
+                    <li><a href="#">Подкатегория 4</a></li>
+                    <li><a href="#">Подкатегория 5</a></li>
+                    <li><a href="#">Подкатегория 6</a></li>
+                    <li><a href="#">Подкатегория 7</a></li>
+                    <li><a href="#">Подкатегория 8</a></li>
+                  </ul>
+                </li>
+                <li class="sidebar-nav__tab">
+                  <input type="radio" id="tab-2" name="sidebar-nav">
+                  <label for="tab-2"><i class="icon-laptop"></i>Компьютерная техника</label>
+                  <ul class="sidebar-nav__content nav d-none d-md-block d-lg-block d-xl-block">
+                    <li><a href="#">Подкатегория 1</a></li>
+                    <li><a href="#">Подкатегория 2</a></li>
+                    <li><a href="#">Подкатегория 3</a></li>
+                    <li><a href="#">Подкатегория 4</a></li>
+                  </ul>
+                </li>
+                <li class="sidebar-nav__tab">
+                  <input type="radio" id="tab-3" name="sidebar-nav">
+                  <label for="tab-3"><i class="icon-beer"></i>Красота и здоровье</label>
+                  <ul class="sidebar-nav__content nav d-none d-md-block d-lg-block d-xl-block">
+                    <li><a href="#">Подкатегория 1</a></li>
+                    <li><a href="#">Подкатегория 2</a></li>
+                    <li><a href="#">Подкатегория 3</a></li>
+                    <li><a href="#">Подкатегория 4</a></li>
+                  </ul>
+                </li>
+                <li class="sidebar-nav__tab">
+                  <input type="radio" id="tab-4" name="sidebar-nav">
+                  <label for="tab-4"><i class="icon-music-outline"></i>Аудиоплееры</label>
+                  <ul class="sidebar-nav__content nav d-none d-md-block d-lg-block d-xl-block">
+                    <li><a href="#">Подкатегория 1</a></li>
+                    <li><a href="#">Подкатегория 2</a></li>
+                    <li><a href="#">Подкатегория 3</a></li>
+                    <li><a href="#">Подкатегория 4</a></li>
+                  </ul>
+                </li>
+                <li class="sidebar-nav__tab">
+                  <input type="radio" id="tab-5" name="sidebar-nav">
+                  <label for="tab-5"><i class="icon-desktop"></i>Бытовая техника</label>
+                  <ul class="sidebar-nav__content nav d-none d-md-block d-lg-block d-xl-block">
+                    <li><a href="#">Подкатегория 1</a></li>
+                    <li><a href="#">Подкатегория 2</a></li>
+                    <li><a href="#">Подкатегория 3</a></li>
+                    <li><a href="#">Подкатегория 4</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <div class="sidebar-nav_mobile d-block d-md-none d-lg-none d-xl-none">
+                <ul class="sidebar-nav__content nav" id="sub_nav0">
+                  <li><a href="#">Сумки</a></li>
+                  <li><a href="#">Nike</a></li>
+                  <li><a href="#">Другие бренды</a></li>
+                  <li><a href="#">С базара</a></li>
+                </ul>
+                <ul class="sidebar-nav__content nav" id="sub_nav1">
+                  <li><a href="#">Подкатегория 1</a></li>
+                  <li><a href="#">Подкатегория 2</a></li>
+                  <li><a href="#">Подкатегория 3</a></li>
+                  <li><a href="#">Подкатегория 4</a></li>
+                  <li><a href="#">Подкатегория 5</a></li>
+                  <li><a href="#">Подкатегория 6</a></li>
+                  <li><a href="#">Подкатегория 7</a></li>
+                  <li><a href="#">Подкатегория 8</a></li>
+                </ul>
+                <ul class="sidebar-nav__content nav" id="sub_nav2">
+                  <li><a href="#">Подкатегория 1</a></li>
+                  <li><a href="#">Подкатегория 2</a></li>
+                  <li><a href="#">Подкатегория 3</a></li>
+                  <li><a href="#">Подкатегория 4</a></li>
+                </ul>
+                <ul class="sidebar-nav__content nav" id="sub_nav3">
+                  <li><a href="#">Подкатегория 1</a></li>
+                  <li><a href="#">Подкатегория 2</a></li>
+                  <li><a href="#">Подкатегория 3</a></li>
+                  <li><a href="#">Подкатегория 4</a></li>
+                </ul>
+                <ul class="sidebar-nav__content nav" id="sub_nav4">
+                  <li><a href="#">Подкатегория 1</a></li>
+                  <li><a href="#">Подкатегория 2</a></li>
+                  <li><a href="#">Подкатегория 3</a></li>
+                  <li><a href="#">Подкатегория 4</a></li>
+                </ul>
+                <ul class="sidebar-nav__content nav" id="sub_nav5">
+                  <li><a href="#">Подкатегория 1</a></li>
+                  <li><a href="#">Подкатегория 2</a></li>
+                  <li><a href="#">Подкатегория 3</a></li>
+                  <li><a href="#">Подкатегория 4</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- /.sidebar_nav -->
+          </div>
+          <!-- /.sidebar -->
+          <div class="col-12 col-md-8 col-lg-9 content">
+            <div class="glide">
+              <div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides">
+                  <li class="glide__slide">
+                    <img src="https://i.imgur.com/6xqmhUh.png" alt="p">
+                    <!-- <p class="title">HELLO WORLD!</p> -->
+                  </li>
+                  <li class="glide__slide">
+                    <img src="https://i.imgur.com/6xqmhUh.png" alt="p">
+                    <!-- <p class="title">HELLO WORLD!</p> -->
+                  </li>
+                  <li class="glide__slide">
+                    <img src="https://i.imgur.com/6xqmhUh.png" alt="p">
+                    <!-- <p class="title">HELLO WORLD!</p> -->
+                  </li>
+                </ul>
+              </div>
+              <div class="glide__arrows" data-glide-el="controls">
+                <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><</button>
+                <button class="glide__arrow glide__arrow--right" data-glide-dir=">">></button>
+              </div>
+              <div class="glide__bullets" data-glide-el="controls[nav]">
+                <button class="glide__bullet" data-glide-dir="=0"></button>
+                <button class="glide__bullet" data-glide-dir="=1"></button>
+                <button class="glide__bullet" data-glide-dir="=2"></button>
+              </div>
+            </div>
+            <!-- /.glide -->
+          </div>
+          <!-- /.content -->
+        </div>
+      </div>
+    </main>
+    <!-- /.main -->
+
+    <section class="section section_product section_separate">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-heading">
+              <h3>Рекомендуем вам</h3>
+            </div>
+            <div class="section-box section_product-box">
+              <div class="section_product-box__item">
+                <div class="section_product-box__item_img">
+                  <img src="https://i2.rozetka.ua/goods/12193708/copy_hp_6mq26ea_5cdaaca771c09_images_12193708089.jpg" alt="Product">
+                </div>
+                <div class="section_product-box__item_content">
+                  <h4><a href="#">Ноутбук HP 250 G7 (6HL16EA) Dark Ash</a></h4>
+                  <small>18 255 грн</small>
+                </div>
+              </div>
+              <div class="section_product-box__item">
+                <div class="section_product-box__item_img">
+                  <img src="https://i1.rozetka.ua/goods/12161534/samsung_sm_t515nzkdsek_images_12161534788.jpg" alt="Product">
+                </div>
+                <div class="section_product-box__item_content">
+                  <h4><a href="#"> Планшет Samsung Galaxy Tab A 10.1 32GB LTE Black (SM-T515NZKDSEK) + карта памяти Samsung 64GB в подарок</a></h4>
+                  <small>7 999 грн</small>
+                </div>
+              </div>
+              <div class="section_product-box__item">
+                <div class="section_product-box__item_img">
+                  <img src="https://i2.rozetka.ua/goods/4735300/tp_link_tl_wr940n_images_4735300592.jpg" alt="Product">
+                </div>
+                <div class="section_product-box__item_content">
+                  <h4><a href="#">TP-LINK TL-WR940N</a></h4>
+                  <small>699 грн</small>
+                </div>
+              </div>
+              <div class="section_product-box__item">
+                <div class="section_product-box__item_img">
+                  <img src="https://i1.rozetka.ua/goods/7759253/extradigital_kbh1633_images_7759253808.jpg" alt="Product">
+                </div>
+                <div class="section_product-box__item_content">
+                  <h4><a href="#">Кабель Extradigital HDMI to HDMI, 1.5 м</a></h4>
+                  <small>267 грн</small>
+                </div>
+              </div>
+              <div class="section_product-box__item">
+                <div class="section_product-box__item_img">
+                  <img src="https://i2.rozetka.ua/goods/5780/189682_images_5780057.jpg" alt="Product">
+                </div>
+                <div class="section_product-box__item_content">
+                  <h4><a href="#">D-Link DSR-250N</a></h4>
+                  <small>4 999 грн</small>
+                </div>
+              </div>
+              <div class="section_product-box__item">
+                <div class="section_product-box__item_img">
+                  <img src="https://i2.rozetka.ua/goods/6963421/dynamode_usb2_0_rj45_hub3_images_6963421722.jpg" alt="Product">
+                </div>
+                <div class="section_product-box__item_content">
+                  <h4><a href="#">Адаптер Dynamode USB 2.0 - RJ45</a></h4>
+                  <small>159 грн</small>
+                </div>
+              </div>
+              <div class="section_product-box__item">
+                <div class="section_product-box__item_img">
+                  <img src="https://i1.rozetka.ua/goods/8660629/3968648_images_8660629451.jpg" alt="Product">
+                </div>
+                <div class="section_product-box__item_content">
+                  <h4><a href="#">TP-LINK Archer C3150</a></h4>
+                  <small>5 999 грн</small>
+                </div>
+              </div>
+              <div class="section_product-box__item">
+                <div class="section_product-box__item_img">
+                  <img src="https://i1.rozetka.ua/goods/4216777/esperanza_emp120w_images_4216777712.jpg" alt="Product">
+                </div>
+                <div class="section_product-box__item_content">
+                  <h4><a href="#">УМБ Esperanza Photon 17400 mAh White (EMP120W)</a></h4>
+                  <small>399 грн</small>
+                </div>
+              </div>
+            </div>
+            <button class="btn">Загрузить еще...</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /.section_product -->
+
+    <section class="section section_category section_separate">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-heading">
+              <h3>Скидки по категориям</h3>
+            </div>
+            <div class="section-box section_category-box">
+              <div class="section_category-box__item">
+                <img src="img/products/3.png" alt="Category">
+                <h4><a href="#">Дом и сад</a></h4>
+              </div>
+              <div class="section_category-box__item">
+                <img src="img/products/3.png" alt="Category">
+                <h4><a href="#">Сумки и обувь</a></h4>
+              </div>
+              <div class="section_category-box__item">
+                <img src="img/products/3.png" alt="Category">
+                <h4><a href="#">Спорт и отдых</a></h4>
+              </div>
+              <div class="section_category-box__item">
+                <img src="img/products/3.png" alt="Category">
+                <h4><a href="#">Компьютерная техника</a></h4>
+              </div>
+              <div class="section_category-box__item">
+                <img src="img/products/3.png" alt="Category">
+                <h4><a href="#">Красота и здоровье</a></h4>
+              </div>
+              <div class="section_category-box__item">
+                <img src="img/products/3.png" alt="Category">
+                <h4><a href="#">Аудиоплееры</a></h4>
+              </div>
+              <div class="section_category-box__item">
+                <img src="img/products/3.png" alt="Category">
+                <h4><a href="#">Бытовая техника</a></h4>
+              </div>
+              <div class="section_category-box__item">
+                <img src="img/products/3.png" alt="Category">
+                <h4><a href="#">Женская одежда</a></h4>
+              </div>
+              <div class="section_category-box__item">
+                <img src="img/products/3.png" alt="Category">
+                <h4><a href="#">Игрушки и хобби</a></h4>
+              </div>
+              <div class="section_category-box__item">
+                <img src="img/products/3.png" alt="Category">
+                <h4><a href="#">Инструменты и обустройство</a></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /.section_category -->
+
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5 col-12">
+              <div class="footer-top__desc">
+                <h4 class="footer-top__desc_logo">Online Shop</h4>
+                <div class="footer-top__desc_contacts">
+                  <p>
+                    <i class="icon-address"></i>
+                    169-C, Technohub, Dubai Silicon.
+                  </p>
+                  <a href="tel:+08 888 345 6789">
+                    <i class="icon-phone-outline"></i>
+                    +08 888 345 6789
+                  </a><br>
+                  <a href="mailto:info@example.com">
+                    <i class="icon-edit"></i>
+                    info@example.com
+                  </a>
+                </div>
+              </div>
+              <!-- /.footer-top__desc -->
+            </div>
+            <div class="col-md col">
+              <h4 class="footer-top__heading">Компания</h4>
+              <ul class="nav footer-top__nav">
+                <li><a href="#">Про нас</a></li>
+                <li><a href="#">Помощь</a></li>
+                <li><a href="#">Связь</a></li>
+              </ul>
+              <!-- /.footer-top__nav -->
+            </div>
+            <div class="col-md col">
+              <h4 class="footer-top__heading">Покупатель</h4>
+              <ul class="nav footer-top__nav">
+                <li><a href="#">Отследить</a></li>
+                <li><a href="#">Понравилось</a></li>
+                <li><a href="#">Корзина</a></li>
+                <li><a href="#">Аккаунт</a></li>
+              </ul>
+              <!-- /.footer-top__nav -->
+            </div>
+            <div class="col-md col">
+              <h4 class="footer-top__heading">Медиа</h4>
+              <ul class="nav footer-top__nav">
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">VKontakte</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Telegram</a></li>
+              </ul>
+              <!-- /.footer-top__nav -->
+            </div>
+          </div>
+          <!-- /.row -->
+        </div>
+      </div>
+      <!-- /.footer-top -->
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="footer-bottom__copyright">&copy; 2018 Shop Online</p>
+              <!-- /.footer-bottom__copyright -->
+            </div>
+          </div>
+          <!-- /.row -->
+        </div>
+      </div>
+      <!-- /.footer-bottom -->
+    </footer>
+    <!-- /.footer -->
+
+    <script src="js/glide.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <script>
+      // Slider
+      new Glide('.glide', {
+          type: 'carousel',
+          startAt: 0,
+          perView: 1,
+          autoplay: 3000,
+          hoverpause: true,
+          animationDuration: 800
+      }).mount()
+    </script>
+  </body>
+</html>
